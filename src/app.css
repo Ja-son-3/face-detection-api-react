@@ -77,6 +77,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .right {
@@ -95,4 +96,21 @@ button{
 .rightButton {
     padding: 10px 20px;
     font-weight: bold;
+}
+
+.friendInput{
+    position: absolute;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.friends{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.name{
+    font-weight: bold;
+    
 }
